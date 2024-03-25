@@ -28,6 +28,7 @@ char verificaVencedor(char ptabuleiro[3][3]){
     {
       return ptabuleiro[c][0];
     }
+    
    }
   if(ptabuleiro[0][0] == ptabuleiro[1][1] && ptabuleiro[2][2] == ptabuleiro[1][1])
   {
